@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "D:\\hackathon\\YouthParliamentApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Migrations\\20260323182700_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:YouthParliamentApp\\Migrations\\20260323182700_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\models\\appmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\models\\appmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\migrations\\20260323182700_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\migrations\\20260323182700_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Migrations\\20260323192843_NullableFullName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:YouthParliamentApp\\Migrations\\20260323192843_NullableFullName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\viewmodels\\createeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\viewmodels\\createeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\models\\appmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\models\\appmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\youthparliamentapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|solutionrelative:youthparliamentapp\\youthparliamentapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3BFB5E8-33F4-0FCD-BEB3-0775DFAA3A2D}|YouthParliamentApp\\YouthParliamentApp.csproj|d:\\hackathon\\youthparliamentapp\\youthparliamentapp\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +86,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Events\\Index.cshtml",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Views\\Events\\Index.cshtml",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Events\\Index.cshtml",
+              "RelativeToolTip": "YouthParliamentApp\\Views\\Events\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T20:07:07.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Program.cs",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Program.cs",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Program.cs",
+              "RelativeToolTip": "YouthParliamentApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:40:22.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Controllers\\EventsController.cs",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "YouthParliamentApp\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T18:36:34.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Events\\Details.cshtml",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Views\\Events\\Details.cshtml",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Events\\Details.cshtml*",
+              "RelativeToolTip": "YouthParliamentApp\\Views\\Events\\Details.cshtml*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T18:41:21.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "YouthParliamentApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T20:08:41.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "YouthParliamentApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T20:09:15.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppModels.cs",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Models\\AppModels.cs",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Models\\AppModels.cs",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Models\\AppModels.cs",
+              "RelativeToolTip": "YouthParliamentApp\\Models\\AppModels.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T18:07:42.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "YouthParliamentApp\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAApwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T18:47:09.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260323192843_NullableFullName.cs",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Migrations\\20260323192843_NullableFullName.cs",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Migrations\\20260323192843_NullableFullName.cs",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Migrations\\20260323192843_NullableFullName.cs",
+              "RelativeToolTip": "YouthParliamentApp\\Migrations\\20260323192843_NullableFullName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T19:28:43.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20260323182700_InitialCreate.cs",
               "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Migrations\\20260323182700_InitialCreate.cs",
               "RelativeDocumentMoniker": "YouthParliamentApp\\Migrations\\20260323182700_InitialCreate.cs",
@@ -55,7 +220,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "YouthParliamentApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T18:49:46.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "YouthParliamentApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T19:15:59.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "YouthParliamentApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T19:17:56.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "YouthParliamentApp\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T18:49:13.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\Views\\Events\\Create.cshtml",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "YouthParliamentApp\\Views\\Events\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T18:39:36.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateEventViewModel.cs",
+              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\ViewModels\\CreateEventViewModel.cs",
+              "RelativeDocumentMoniker": "YouthParliamentApp\\ViewModels\\CreateEventViewModel.cs",
+              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\ViewModels\\CreateEventViewModel.cs",
+              "RelativeToolTip": "YouthParliamentApp\\ViewModels\\CreateEventViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T18:34:57.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\appsettings.json",
               "RelativeDocumentMoniker": "YouthParliamentApp\\appsettings.json",
@@ -63,12 +306,11 @@
               "RelativeToolTip": "YouthParliamentApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-23T18:14:01.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T18:14:01.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "YouthParliamentApp\\Data\\ApplicationDbContext.cs",
@@ -76,48 +318,11 @@
               "RelativeToolTip": "YouthParliamentApp\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAAAD8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T18:09:59.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T18:09:59.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppModels.cs",
-              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Models\\AppModels.cs",
-              "RelativeDocumentMoniker": "YouthParliamentApp\\Models\\AppModels.cs",
-              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Models\\AppModels.cs",
-              "RelativeToolTip": "YouthParliamentApp\\Models\\AppModels.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T18:07:42.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Program.cs",
-              "RelativeDocumentMoniker": "YouthParliamentApp\\Program.cs",
-              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Program.cs",
-              "RelativeToolTip": "YouthParliamentApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:40:22.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "YouthParliamentApp.csproj",
-              "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\YouthParliamentApp.csproj",
-              "RelativeDocumentMoniker": "YouthParliamentApp\\YouthParliamentApp.csproj",
-              "ToolTip": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\YouthParliamentApp.csproj",
-              "RelativeToolTip": "YouthParliamentApp\\YouthParliamentApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-23T17:42:00.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Enums.cs",
               "DocumentMoniker": "D:\\hackathon\\YouthParliamentApp\\YouthParliamentApp\\Models\\Enums.cs",
               "RelativeDocumentMoniker": "YouthParliamentApp\\Models\\Enums.cs",

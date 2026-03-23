@@ -1,0 +1,76 @@
+﻿@model YouthParliamentApp.Models.Event
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <span class="badge bg-info text-dark mb-2">Коэффициент: x@Model.ComplexityWeight</span>
+                    <h1 class="card-title">@Model.Title</h1>
+                    <p class="text-muted">📅 @Model.EventDate.ToString("f") | 📍 @Model.Location</p>
+                    <p class="card-text">@Model.Description</p>
+
+                    <h5 class="mt-4">Награды:</h5>
+                    <ul>
+                        @foreach (var prize in Model.Prizes)
+                        {
+                            <li>
+                                @if (prize.IsBonus)
+                                {
+                                    <span>🎁</span>
+                                }
+                                else
+                                {
+
+                                    <span>⭐</span>
+                                }
+                                <strong>@prize.Title</strong>
+                                @if (prize.PointsValue > 0)
+                                {
+                                    <span class="text-success">(+@prize.PointsValue баллов)</span>
+                                }
+                            </li>
+                        }
+                    </ul>
+
+                    @if (User.IsInRole("Participant"))
+                    {
+                        <form asp-action="Register" method="post" class="mt-4">
+                            <input type="hidden" name="eventId" value="@Model.Id" />
+                            <button type="submit" class="btn btn-success btn-lg">Подать заявку на участие</button>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+
+        @if (User.IsInRole("Organizer") && User.Identity.Name == Model.Organizer.UserName)
+        {
+            <div class="col-md-4">
+                <div class="card border-primary shadow-sm">
+                    <div class="card-header bg-primary text-white">Управление (Для Организатора)</div>
+                    <div class="card-body text-center">
+                        <h6>QR-код для отметки участников:</h6>
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=@Model.VerificationCode" alt="QR Code" class="img-fluid mb-3" />
+                        <p class="small text-muted">Участники могут отсканировать этот код для авто-подтверждения.</p>
+
+                        <hr />
+                        <h6>Ручное подтверждение:</h6>
+         9jtny                <ul class="list-group text-start">
+                            @foreach (var p in Model.Participations.Where(p => p.Status == 0))
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    @p.User.FullName
+                                    <form asp-action="ConfirmParticipation" method="post">
+                                        <input type="hidden" name="participationId" value="@p.Id" />
+                                        <button type="submit" class="btn btn-sm btn-outline-success">Подтвердить</button>
+                                    </form>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

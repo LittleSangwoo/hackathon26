@@ -1,8 +1,43 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<YouthParliamentApp.Models.Event>
+
+@{
+    ViewData["Title"] = "Главная";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <h2 class="mb-4 text-center">Актуальные мероприятия</h2>
+
+    <div class="row">
+        @if (!Model.Any())
+        {
+            <div class="col-12 text-center">
+                <p class="text-muted">Мероприятий пока нет. Загляните позже!</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-info text-dark">@item.Category?.Name</span>
+                                <small class="text-muted">@item.EventDate.ToString("dd.MM.yyyy")</small>
+                            </div>
+                            <h5 class="card-title text-primary">@item.Title</h5>
+                            <p class="card-text text-secondary" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                                @item.Description
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pb-3">
+                            <a asp-controller="Events" asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary w-100">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
 </div>

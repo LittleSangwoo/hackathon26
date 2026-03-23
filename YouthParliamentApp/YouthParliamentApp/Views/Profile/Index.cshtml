@@ -1,0 +1,51 @@
+﻿@model YouthParliamentApp.Models.ApplicationUser
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-0">
+                <div class="card-body text-center">
+                    <img src="@(Model.AvatarUrl ?? "https://via.placeholder.com/150")"
+                         class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+
+                    <h3>@Model.FullName</h3>
+                    <p class="text-muted">@Model.City</p>
+
+                    <div class="row mt-4">
+                        @if (User.IsInRole("Organizer"))
+                        {
+                            <div class="col-6 border-end">
+                                <h2 class="text-primary">
+                                    @Model.OrganizedEvents.Count(e => e.Status == 2) @* 2 = Completed *@
+                                </h2>
+                                <p class="text-muted small text-uppercase fw-bold">Проведено<br>мероприятий</p>
+                            </div>
+                            <div class="col-6">
+                                <h2 class="text-warning">@(Model.OrganizerProfile?.TrustRating ?? 5.0m)</h2>
+                                <p class="text-muted small text-uppercase fw-bold">Рейтинг<br>доверия</p>
+                            </div>
+                        }
+                        else if (User.IsInRole("Participant"))
+                        {
+                            <div class="col-6 border-end">
+                                <h2 class="text-success">@Model.TotalRating</h2>
+                                <p class="text-muted small text-uppercase fw-bold">Общий<br>рейтинг</p>
+                            </div>
+                            <div class="col-6">
+                                <h2 class="text-info">@Model.Participations.Count(p => p.Status == 1)</h2>
+                                <p class="text-muted small text-uppercase fw-bold">Посещено<br>событий</p>
+                            </div>
+                        }
+                    </div>
+
+                    @if (User.IsInRole("Organizer"))
+                    {
+                        <div class="mt-4">
+                            <a asp-controller="Events" asp-action="Create" class="btn btn-outline-primary w-100">Создать мероприятие</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

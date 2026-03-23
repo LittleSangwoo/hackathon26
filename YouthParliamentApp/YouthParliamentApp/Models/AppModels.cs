@@ -20,23 +20,28 @@ namespace YouthParliamentApp.Models
     // =========================================
     public class ApplicationUser : IdentityUser<Guid>
     {
-        [Required, MaxLength(256)]
-        public string FullName { get; set; }
+        public string? FullName { get; set; }
 
         public string? AvatarUrl { get; set; }
         public string? City { get; set; }
         public int? Age { get; set; }
 
         // Прямая связь с ролью, как на твоей диаграмме
-        public Guid RoleId { get; set; }
+        // Было: public Guid RoleId { get; set; }
+        // СТАЛО:
+        public Guid? RoleId { get; set; }
+
+        // Указываем EF, что нужно использовать именно колонку RoleId
         [ForeignKey("RoleId")]
-        public virtual ApplicationRole Role { get; set; }
+        public virtual ApplicationRole? Role { get; set; }
 
-        [Column(TypeName = "decimal(18, 2)")]
-        public decimal TotalRating { get; set; } = 0.00m;
+        // Было: public decimal TotalRating { get; set; }
+        // СТАЛО:
+        public decimal? TotalRating { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
+        // Было: public DateTime CreatedAt { get; set; }
+        // СТАЛО:
+        public DateTime? CreatedAt { get; set; }
         // Навигационные свойства (связи с другими таблицами)
         public virtual OrganizerProfile? OrganizerProfile { get; set; }
         public virtual ICollection<Participation> Participations { get; set; } = new List<Participation>();

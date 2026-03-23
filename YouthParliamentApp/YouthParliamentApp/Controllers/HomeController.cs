@@ -1,25 +1,30 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using YouthParliamentApp.Data;
+using Microsoft.EntityFrameworkCore;
 using YouthParliamentApp.Models;
 
 namespace YouthParliamentApp.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly ApplicationDbContext _context;
+
+        public HomeController(ApplicationDbContext context)
         {
-            return View();
+            _context = context;
         }
 
-        public IActionResult Privacy()
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
+            // Достаем все ивенты и подключаем категорию
+            var events = await _context.Events
+                .Include(e => e.Category)
+                .OrderByDescending(e => e.EventDate)
+                .ToListAsync();
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(events);
         }
     }
 }
+

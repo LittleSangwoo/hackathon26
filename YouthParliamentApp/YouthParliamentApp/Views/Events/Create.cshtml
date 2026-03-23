@@ -1,0 +1,46 @@
+﻿@model YouthParliamentApp.ViewModels.CreateEventViewModel
+
+<div class="container mt-4">
+    <h2>Создать новое мероприятие</h2>
+    <div class="card shadow-sm mt-3">
+        <div class="card-body">
+            <form asp-action="Create" method="post">
+                <div class="mb-3">
+                    <label class="form-label">Название мероприятия</label>
+                    <input asp-for="Title" class="form-control" placeholder="Например: Школа молодого парламентария" required />
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Дата проведения</label>
+                        <input asp-for="EventDate" type="datetime-local" class="form-control" required />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Коэффициент сложности (от 1.0 до 2.0)</label>
+                        <input asp-for="ComplexityWeight" type="number" step="0.1" class="form-control" value="1.0" />
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Описание</label>
+                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                </div>
+
+                <hr />
+                <h4>Призы и баллы</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Базовые баллы за участие</label>
+                        <input asp-for="BasePoints" type="number" class="form-control" value="50" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Материальный бонус (опционально)</label>
+                        <input asp-for="BonusTitle" class="form-control" placeholder="Например: Фирменный мерч" />
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg">Опубликовать</button>
+            </form>
+        </div>
+    </div>
+</div>

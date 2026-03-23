@@ -289,7 +289,7 @@ namespace YouthParliamentApp.Migrations
 
                     b.HasIndex("OrganizerId");
 
-                    b.ToTable("Events");
+                    b.ToTable("Events", (string)null);
                 });
 
             modelBuilder.Entity("YouthParliamentApp.Models.EventCategory", b =>
@@ -310,7 +310,7 @@ namespace YouthParliamentApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("EventCategories");
+                    b.ToTable("EventCategories", (string)null);
                 });
 
             modelBuilder.Entity("YouthParliamentApp.Models.OrganizerProfile", b =>
@@ -329,7 +329,7 @@ namespace YouthParliamentApp.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("OrganizerProfiles");
+                    b.ToTable("OrganizerProfiles", (string)null);
                 });
 
             modelBuilder.Entity("YouthParliamentApp.Models.OrganizerReview", b =>
@@ -359,7 +359,7 @@ namespace YouthParliamentApp.Migrations
 
                     b.HasIndex("ParticipantId");
 
-                    b.ToTable("OrganizerReviews");
+                    b.ToTable("OrganizerReviews", (string)null);
                 });
 
             modelBuilder.Entity("YouthParliamentApp.Models.Participation", b =>
@@ -392,7 +392,7 @@ namespace YouthParliamentApp.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Participations");
+                    b.ToTable("Participations", (string)null);
                 });
 
             modelBuilder.Entity("YouthParliamentApp.Models.Prize", b =>
@@ -419,7 +419,7 @@ namespace YouthParliamentApp.Migrations
 
                     b.HasIndex("EventId");
 
-                    b.ToTable("Prizes");
+                    b.ToTable("Prizes", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>

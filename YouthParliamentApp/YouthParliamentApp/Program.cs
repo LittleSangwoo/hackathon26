@@ -19,9 +19,12 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = false;
     options.Password.RequiredLength = 3;
+
+    options.SignIn.RequireConfirmedAccount = false;
+    options.SignIn.RequireConfirmedEmail = false;
 })
 .AddEntityFrameworkStores<ApplicationDbContext>()
-.AddDefaultTokenProviders();
+.AddDefaultTokenProviders().AddDefaultUI(); 
 
 // Добавляем поддержку MVC (контроллеры и вьюшки)
 builder.Services.AddControllersWithViews();
@@ -33,6 +36,15 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("ObserverOnly", policy => policy.RequireRole("Observer"));
     options.AddPolicy("ParticipantOnly", policy => policy.RequireRole("Participant"));
 });
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    // Указываем, куда отправлять юзера, если он не залогинен
+    options.LoginPath = "/Identity/Account/Login";
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+});
+
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -47,6 +59,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
+app.UseAuthentication(); // ПЕРВЫМ: Кто ты? (Проверка куки/паспорта)
 app.UseAuthorization();
 
 app.MapStaticAssets();
@@ -56,5 +69,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+app.MapRazorPages();
 
 app.Run();
