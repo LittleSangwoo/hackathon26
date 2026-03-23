@@ -1,0 +1,47 @@
+﻿@model YouthParliamentApp.Models.LeaderboardViewModel
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">🏆 Рейтинг участников</h1>
+
+    <div class="text-center mb-4">
+        <div class="btn-group">
+            <a asp-action="Index" class="btn @(Model.SelectedCategoryId == null ? "btn-primary" : "btn-outline-primary")">Весь мир</a>
+            @foreach (var cat in Model.Categories)
+            {
+                <a asp-action="Index" asp-route-categoryId="@cat.Id" 
+                   class="btn @(Model.SelectedCategoryId == cat.Id ? "btn-primary" : "btn-outline-primary")">
+                    @cat.Name
+                </a>
+            }
+        </div>
+    </div>
+
+    <div class="table-responsive shadow-sm rounded">
+        <table class="table table-hover align-middle bg-white">
+            <thead class="table-dark">
+                <tr>
+                    <th style="width: 100px">Место</th>
+                    <th>Участник</th>
+                    <th>Город</th>
+                    <th class="text-end">Баллы</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model.TopUsers)
+                {
+                    <tr class="@(user.Rank <= 3 ? "table-warning fw-bold" : "")">
+                        <td>
+                            @if (user.Rank == 1) { <span>🥇 1</span> }
+                            else if (user.Rank == 2) { <span>🥈 2</span> }
+                            else if (user.Rank == 3) { <span>🥉 3</span> }
+                            else { @user.Rank }
+                        </td>
+                        <td>@user.FullName</td>
+                        <td>@user.City</td>
+                        <td class="text-end text-primary">@user.TotalRating.ToString("N1")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

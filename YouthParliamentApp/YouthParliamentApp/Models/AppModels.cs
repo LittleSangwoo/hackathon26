@@ -187,4 +187,19 @@ namespace YouthParliamentApp.Models
         public string? Comment { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
+        public class LeaderboardItem
+        {
+            public int Rank { get; set; }
+            public string FullName { get; set; }
+            public string City { get; set; }
+            public decimal TotalRating { get; set; }
+        }
+
+        public class LeaderboardViewModel
+        {
+            public List<LeaderboardItem> TopUsers { get; set; }
+            public int? SelectedCategoryId { get; set; }
+            public List<EventCategory> Categories { get; set; }
+        
+    }
 }
