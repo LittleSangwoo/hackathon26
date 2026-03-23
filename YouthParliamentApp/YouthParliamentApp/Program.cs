@@ -1,16 +1,30 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using YouthParliamentApp.Data;
+using YouthParliamentApp.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-// Регистрация Identity с поддержкой ролей
-builder.Services.AddDefaultIdentity<ApplicationUser>(options => {
-    options.SignIn.RequireConfirmedAccount = false;
-    options.Password.RequireDigit = false; // Упростим для хакатона
+// 1. ПОДКЛЮЧАЕМ БАЗУ ДАННЫХ (именно этого куска кода тебе не хватало)
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
+
+// 2. ПОДКЛЮЧАЕМ IDENTITY (Систему ролей и пользователей)
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
+{
+    // Отключаем сложные пароли для удобства на хакатоне
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 3;
 })
-.AddRoles<IdentityRole>() // Важно: добавляем поддержку ролей!
-.AddEntityFrameworkStores<ApplicationDbContext>();
+.AddEntityFrameworkStores<ApplicationDbContext>()
+.AddDefaultTokenProviders();
+
+// Добавляем поддержку MVC (контроллеры и вьюшки)
+builder.Services.AddControllersWithViews();
 
 // Настройка политик (Policy-based authorization) — более гибкий подход
 builder.Services.AddAuthorization(options =>

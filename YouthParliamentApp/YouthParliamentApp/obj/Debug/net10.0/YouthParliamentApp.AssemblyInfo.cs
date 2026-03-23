@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YouthParliamentApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c019e99a2733c5a2a11944f252b37770dcb897e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e32d2728017aca2fd8d2408996ce68554326ee34")]
 [assembly: System.Reflection.AssemblyProductAttribute("YouthParliamentApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YouthParliamentApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
