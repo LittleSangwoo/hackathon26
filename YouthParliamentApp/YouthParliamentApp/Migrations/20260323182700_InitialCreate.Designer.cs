@@ -12,7 +12,7 @@ using YouthParliamentApp.Data;
 namespace YouthParliamentApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260323181540_InitialCreate")]
+    [Migration("20260323182700_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -430,7 +430,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
 
@@ -439,7 +439,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
 
@@ -448,7 +448,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
 
@@ -457,13 +457,13 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("YouthParliamentApp.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
 
@@ -472,7 +472,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
 
@@ -481,7 +481,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.ApplicationRole", "Role")
                         .WithMany("Users")
                         .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Role");
@@ -492,7 +492,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.EventCategory", "Category")
                         .WithMany("Events")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("YouthParliamentApp.Models.ApplicationUser", "Organizer")
@@ -511,7 +511,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.ApplicationUser", "User")
                         .WithOne("OrganizerProfile")
                         .HasForeignKey("YouthParliamentApp.Models.OrganizerProfile", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("User");
@@ -541,7 +541,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.Event", "Event")
                         .WithMany("Participations")
                         .HasForeignKey("EventId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("YouthParliamentApp.Models.ApplicationUser", "User")
@@ -560,7 +560,7 @@ namespace YouthParliamentApp.Migrations
                     b.HasOne("YouthParliamentApp.Models.Event", "Event")
                         .WithMany("Prizes")
                         .HasForeignKey("EventId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Event");

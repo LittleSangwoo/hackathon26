@@ -68,6 +68,15 @@ namespace YouthParliamentApp.Data
                 .WithMany()
                 .HasForeignKey(r => r.ParticipantId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            var cascadeFKs = builder.Model.GetEntityTypes()
+    .SelectMany(t => t.GetForeignKeys())
+    .Where(fk => !fk.IsOwnership && fk.DeleteBehavior == DeleteBehavior.Cascade);
+
+            foreach (var fk in cascadeFKs)
+            {
+                fk.DeleteBehavior = DeleteBehavior.Restrict;
+            }
         }
     }
 }
